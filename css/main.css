@@ -1,3 +1,4 @@
+/*Global styles*/
 body {
     margin: 0;
     box-sizing: border-box;
@@ -9,17 +10,8 @@ h1 {
     font-weight: 900;
 }
 
-.row {
-    margin: 0;
-}
-
-.row div{
-    padding-left: 0;
-    padding-right: 0;
-}
-
-.blob {
-    position: absolute;
+.container-fluid {
+    padding: 3% 10%;
 }
 
 .above-title-text {
@@ -32,11 +24,6 @@ h1 {
 
 /*Heading*/
 
-#heading {
-
-}
-
-
-.heading-content {
-    
+.heading-image {
+    width: 80%
 }
