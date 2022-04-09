@@ -18,7 +18,7 @@ h3 {
 }
 
 .container-fluid {
-    padding: 3% 10%;
+    padding: 1% 7%;
 }
 
 .above-title-text {
@@ -32,7 +32,7 @@ h3 {
 /*Heading*/
 
 .heading-image {
-    width: 80%
+    width: 100%
 }
 
 /*Countdown*/
@@ -53,3 +53,5 @@ h3 {
 .timeval-description {
     text-transform: uppercase;
 }
+
+/*About section*/
