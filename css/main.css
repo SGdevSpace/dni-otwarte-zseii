@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;    font-size: 3rem;
+    font-weight: 900;
+}
+
+.row {
+    margin: 0;
+}
+
+.row div{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.blob {
+    position: absolute;
+}
+
+.above-title-text {
+    color: #8A2387;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
+}
+
+/*Heading*/
+
+#heading {
+
+}
+
+
+.heading-content {
+    
+}
