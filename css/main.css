@@ -6,15 +6,16 @@ body {
 }
 
 h1 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 3rem;
-    font-weight: 900;
+    font-weight: 700;
 }
 
 h3 {
     font-size: 3rem;
     font-weight: 700;
     margin-top: 1rem;
+    font-family: 'Poppins', sans-serif;
 }
 
 .container-fluid {
@@ -43,8 +44,10 @@ h3 {
 
 /*Heading*/
 
+
+
 .heading-image {
-    width: 100%
+    width: 90%
 }
 
 /*Countdown*/
@@ -67,3 +70,58 @@ h3 {
 }
 
 /*About section*/
+
+#about {
+    margin-top: 3%;
+    text-align: center;
+}
+
+.about-info {
+    margin-top: 10vh;
+}
+
+.about-content {
+    padding: 1% 20%;
+}
+
+.about-row {
+    padding-top: 7%;
+}
+
+.about-heading {
+    font-size: 5rem;
+}
+
+.heading-subinfo {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.about-image {
+    width: 15rem;
+}
+
+.carousel-item img {
+    border-radius: 1rem !important;
+}
+
+/*Features*/
+
+#features {
+    padding: 7% 15%
+}
+
+.feature-box {
+    padding: 6%;
+    text-align: center;
+}
+
+.feature-heading {
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.feature-icon {
+    font-size: 3rem;
+    color: #6c33c7;
+}
