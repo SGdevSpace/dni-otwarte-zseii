@@ -125,3 +125,14 @@ h3 {
     font-size: 3rem;
     color: #6c33c7;
 }
+
+/*CTA*/
+
+#cta-about {
+    background: url(../assets/img/cta-bg.jpg);
+    height: 60vh;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%, 0 100%, 0% 50%);
+    background-size: cover;
+    background-position: middle;
+    background-repeat: no-repeat;
+}
