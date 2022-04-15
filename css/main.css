@@ -121,8 +121,6 @@ h3 {
     padding:5%;
   }
   
-  
-  
   .icon{
     color:#5856d1;
     margin-bottom:1rem;
@@ -131,3 +129,28 @@ h3 {
   .icon:hover{
     color:#2b29c4;
   }
+
+/*Offer intro*/
+
+#offer-intro {
+    height: 60vh;
+    background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.3), 
+      rgba(0, 0, 0, 0.7)
+    ),
+    url(../assets/img/about-break.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    clip-path: polygon(100% 0, 100% 84%, 0 100%, 0 100%, 0 0);
+    padding: 0 20%;
+}
+
+/*Offer*/
+
+#offer {
+    height: 100vh;
+}
