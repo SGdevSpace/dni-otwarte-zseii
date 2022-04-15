@@ -69,11 +69,21 @@ h3 {
     text-transform: uppercase;
 }
 
+/*Wave*/
+
+.wave {
+    background: url(../assets/svg/wave.svg);
+    background-size: contain;
+    height: 15vh;
+
+}
+
 /*About section*/
 
 #about {
-    margin-top: 3%;
-    text-align: center;
+    padding-top: 3%;
+    background: #F3F4F5;
+    min-height: 50vh;
 }
 
 .about-info {
@@ -84,13 +94,6 @@ h3 {
     padding: 1% 20%;
 }
 
-.about-row {
-    padding-top: 7%;
-}
-
-.about-heading {
-    font-size: 5rem;
-}
 
 .heading-subinfo {
     text-transform: uppercase;
@@ -98,41 +101,33 @@ h3 {
 }
 
 .about-image {
-    width: 15rem;
-}
-
-.carousel-item img {
-    border-radius: 1rem !important;
+    width: 100%;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
 }
 
 /*Features*/
 
-#features {
-    padding: 7% 15%
-}
-
-.feature-box {
-    padding: 6%;
+#features{
     text-align: center;
-}
-
-.feature-heading {
-    font-size: 2rem;
-    font-weight: 900;
-}
-
-.feature-icon {
-    font-size: 3rem;
-    color: #6c33c7;
-}
-
-/*CTA*/
-
-#cta-about {
-    background: url(../assets/img/cta-bg.jpg);
-    height: 60vh;
-    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%, 0 100%, 0% 50%);
-    background-size: cover;
-    background-position: middle;
-    background-repeat: no-repeat;
-}
+    position:relative;
+  }
+  
+  .feature-title{
+    font-size:1.5rem;
+  }
+  
+  .feature-box{
+    padding:5%;
+  }
+  
+  
+  
+  .icon{
+    color:#5856d1;
+    margin-bottom:1rem;
+  }
+  
+  .icon:hover{
+    color:#2b29c4;
+  }
