@@ -74,7 +74,7 @@ h3 {
 .wave {
     background: url(../assets/svg/wave.svg);
     background-size: contain;
-    height: 15vh;
+    height: 20vh;
 
 }
 
@@ -87,7 +87,7 @@ h3 {
 }
 
 .about-info {
-    margin-top: 10vh;
+    padding-top: 10vh;
 }
 
 .about-content {
