@@ -118,7 +118,7 @@ h3 {
   }
   
   .feature-box{
-    padding:5%;
+    padding:5% 3%;
   }
   
   .icon{
@@ -146,7 +146,7 @@ h3 {
     color: white;
     text-align: center;
     clip-path: polygon(100% 0, 100% 84%, 0 100%, 0 100%, 0 0);
-    padding: 0 20%;
+    padding: 20%;
 }
 
 /*Offer*/
