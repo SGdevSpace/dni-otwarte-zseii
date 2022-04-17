@@ -198,7 +198,15 @@ h3 {
 }
 
 @media screen and (max-width: 768px) {
+    header {
+        padding: 7%;
+    }
+
+    .wave {
+        min-height: 10vh;
+    }
+
     #offer-intro {
-        padding: 25% 5%;
+        padding: 15% 0;
     }
 }
