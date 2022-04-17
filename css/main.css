@@ -49,6 +49,17 @@ h3 {
 .li-invisible {
     list-style: none;
 }
+
+.dots {
+    color: rgb(186, 186, 186);
+    text-align: center;
+    font-size: 5rem;
+}
+
+.dots::before {
+    content: '...';
+}
+
 /*Heading*/
 
 
@@ -167,9 +178,17 @@ h3 {
     padding: 3%;
 }
 
-.study-field-description {
+
+.study-field-row:nth-of-type(odd) .study-field-description {
     padding-right: 25%;
+    padding-left: 0 !important;
 }
+
+.study-field-row:nth-of-type(even) .study-field-description {
+    padding-left: 25%;
+    padding-right: 0 !important;
+}
+
 
 /*Opinion div*/
 
@@ -197,7 +216,7 @@ h3 {
     top: 0;
     left: 0;
     width: 30%;
-    opacity: 0.2;
+    opacity: 0.1;
 }
 
 .opinion-author {
@@ -222,5 +241,9 @@ h3 {
     #offer-intro {
         padding: 15% 0;
         min-height: 100vh;
+    }
+
+    .study-field-row {
+        text-align: center !important;
     }
 }
