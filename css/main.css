@@ -77,7 +77,7 @@ h3 {
 .wave {
     background: url(../assets/svg/wave.svg);
     background-size: contain;
-    height: 20vh;
+    min-height: 20vh;
 
 }
 
@@ -136,7 +136,7 @@ h3 {
 /*Offer intro*/
 
 #offer-intro {
-    height: 60vh;
+    min-height: 60vh;
     background:
     linear-gradient(
       rgba(0, 0, 0, 0.3), 
@@ -160,6 +160,10 @@ h3 {
 
 .study-field-row {
     padding: 3%;
+}
+
+.study-field-description {
+    padding-right: 15%;
 }
 
 /*Opinion div*/
@@ -191,4 +195,10 @@ h3 {
 
 .content-blob {
     width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    #offer-intro {
+        padding: 25% 5%;
+    }
 }
