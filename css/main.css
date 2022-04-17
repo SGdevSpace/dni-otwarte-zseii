@@ -18,12 +18,16 @@ h3 {
     font-family: 'Poppins', sans-serif;
 }
 
+.btn {
+    margin-bottom: 3%;
+}
+
 .container-fluid {
     padding: 1% 5%;
 }
 
 .above-title-text {
-    color: #8A2387;
+    color: #2b29c4;
     text-transform: uppercase;
     padding: 0;
     margin: 0;
@@ -114,6 +118,7 @@ h3 {
 #features{
     text-align: center;
     position:relative;
+    background: #F3F4F5;
   }
   
   .feature-title{
@@ -175,6 +180,7 @@ h3 {
     border-radius: 5px;
     font-family: 'Poppins', sans-serif;
     font-weight: lighter;
+    border-left: 5px solid #2b29c4;
 }
 
 .opinion-content {
