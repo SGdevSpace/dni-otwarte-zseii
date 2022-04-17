@@ -179,12 +179,12 @@ h3 {
 }
 
 
-.study-field-row:nth-of-type(odd) .study-field-description {
+.odd-row .study-field-description {
     padding-right: 25%;
     padding-left: 0 !important;
 }
 
-.study-field-row:nth-of-type(even) .study-field-description {
+.even-row .study-field-description {
     padding-left: 25%;
     padding-right: 0 !important;
 }
@@ -204,7 +204,7 @@ h3 {
 }
 
 .opinion-col {
-    padding: 0 3%;
+    padding: 1%;
 }
 
 .opinion-content {
@@ -246,4 +246,19 @@ h3 {
     .study-field-row {
         text-align: center !important;
     }
+
+    .odd-row .study-field-description {
+        padding-right: 0;
+        padding-left: 0 ;
+    }
+    
+    .even-row .study-field-description {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .opinion-col {
+        padding: 4% 1%;
+    }
+    
 }
