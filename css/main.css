@@ -158,9 +158,11 @@ h3 {
     height: 100vh;
 }
 
+.study-field-row {
+    padding: 3%;
+}
+
 /*Opinion div*/
-
-
 
 .opinion {
     padding: 5%;
