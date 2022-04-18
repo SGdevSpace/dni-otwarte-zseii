@@ -127,39 +127,37 @@ h3 {
 
 /*Features*/
 
-#features{
+#features {
     text-align: center;
-    position:relative;
+    position: relative;
     background: #F3F4F5;
-  }
-  
-  .feature-title{
-    font-size:1.5rem;
-  }
-  
-  .feature-box{
-    padding:5% 3%;
-  }
-  
-  .icon{
-    color:#5856d1;
-    margin-bottom:1rem;
-  }
-  
-  .icon:hover{
-    color:#2b29c4;
-  }
+}
+
+.feature-title {
+    font-size: 1.5rem;
+}
+
+.feature-box {
+    padding: 5% 3%;
+}
+
+.icon {
+    color: #5856d1;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #2b29c4;
+}
 
 /*Offer intro*/
 
 #offer-intro {
     min-height: 20vh;
     background:
-    linear-gradient(
-      rgba(0, 0, 0, 0.3), 
-      rgba(0, 0, 0, 0.7)
-    ),
-    url(../assets/img/about-break.jpg);
+        linear-gradient(rgba(0, 0, 0, 0.3),
+            rgba(0, 0, 0, 0.7)),
+        url(../assets/img/about-break.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -254,9 +252,9 @@ h3 {
 
     .odd-row .study-field-description {
         padding-right: 0;
-        padding-left: 0 ;
+        padding-left: 0;
     }
-    
+
     .even-row .study-field-description {
         padding-left: 0;
         padding-right: 0;
@@ -265,5 +263,5 @@ h3 {
     .opinion-col {
         padding: 4% 1%;
     }
-    
+
 }
