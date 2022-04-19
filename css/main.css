@@ -170,7 +170,6 @@ h3 {
 /*Offer*/
 
 #offer {
-    height: 100vh;
 }
 
 .study-field-row {
@@ -230,6 +229,55 @@ h3 {
 
 .content-blob {
     width: 100%;
+}
+
+/* Contact */
+
+
+
+ 
+
+.google-map {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+
+.google-map iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+ 
+
+
+
+/* Footer */
+
+footer {
+    background: rgb(35, 35, 35);
+    color: white;
+    text-align: center;
+    padding: 1% 0;
+
+}
+
+.footer-col {
+    padding: 3% 0;
+}
+
+footer p {
+    padding-top: 1%;
+    margin: 0;
+}
+
+.footer-credits {
+    border-top: 1px solid white;
+    width: 33%;
+    margin: 0 auto;
 }
 
 @media screen and (max-width: 768px) {
