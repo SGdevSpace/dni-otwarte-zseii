@@ -11,6 +11,10 @@ h1 {
     font-weight: 700;
 }
 
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
 h3 {
     font-size: 3rem;
     font-weight: 700;
@@ -68,6 +72,19 @@ h3 {
     width: 90%
 }
 
+.heading-col {
+    position: relative;
+}
+
+.heading-dots {
+    z-index: -1;
+    bottom: 5%;
+    right: 20%;
+    position: absolute;
+    width: 33%;
+
+}
+
 /*Countdown*/
 
 #countdown {
@@ -119,7 +136,7 @@ h3 {
 }
 
 .about-image {
-    width: 100%;
+    
     border-radius: 3px;
     margin: 3%;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
@@ -171,6 +188,7 @@ h3 {
 
 .study-field-row {
     padding: 3%;
+    position: relative;
 }
 
 
@@ -319,7 +337,15 @@ footer p {
     margin: 0 auto;
 }
 
+@media screen and (min-width: 1080px) {
+    
+}
+
 @media screen and (max-width: 768px) {
+
+    .mobile-hide {
+        display: none;
+    }
 
     .container-fluid {
         padding: 1% 7%;
