@@ -22,6 +22,10 @@ h3 {
     font-family: 'Poppins', sans-serif;
 }
 
+.tablet-show {
+    display: none;
+}
+
 .btn {
     margin-bottom: 3%;
 }
@@ -136,7 +140,7 @@ h3 {
 }
 
 .about-image {
-    
+
     border-radius: 3px;
     margin: 3%;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
@@ -337,13 +341,13 @@ footer p {
     margin: 0 auto;
 }
 
-@media screen and (min-width: 1080px) {
-    
-}
-
 @media screen and (max-width: 768px) {
 
-    .mobile-hide {
+    .tablet-hide {
+        display: block;
+    }
+
+    .tablet-show {
         display: none;
     }
 
@@ -404,5 +408,14 @@ footer p {
 
     .footer-credits {
         width: 66%;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1080px) {
+    .tablet-hide {
+        display: none;
+    }
+    .tablet-show {
+        display: block;
     }
 }
