@@ -22,6 +22,10 @@ h3 {
     font-family: 'Poppins', sans-serif;
 }
 
+nav {
+    padding: 3%;
+}
+
 .tablet-show {
     display: none;
 }
