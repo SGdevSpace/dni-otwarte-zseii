@@ -268,7 +268,7 @@ nav {
     height: 40vh;
     background-size: cover !important;
     background-position: middle !important;
-    background:linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url(../assets/img/feature-1.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../assets/img/feature-1.jpg);
     padding: 0;
 }
 
@@ -276,7 +276,7 @@ nav {
     height: 40vh;
     background-size: cover !important;
     background-position: middle !important;
-    background:linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url(../assets/img/feature-2.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../assets/img/feature-2.jpg);
     padding: 0;
 }
 
@@ -284,7 +284,7 @@ nav {
     height: 40vh;
     background-size: cover !important;
     background-position: middle !important;
-    background:linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url(../assets/img/feature-3.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../assets/img/feature-3.jpg);
     padding: 0;
 }
 
@@ -419,6 +419,7 @@ footer p {
     .tablet-hide {
         display: none;
     }
+
     .tablet-show {
         display: block;
     }
